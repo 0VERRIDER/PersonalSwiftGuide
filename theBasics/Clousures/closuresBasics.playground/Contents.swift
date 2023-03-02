@@ -50,10 +50,24 @@ func makeIncrementer(toIncrementBy amount: Int) -> () -> Int {
     return incrementer
 }
 
+///If itsnot returning a clousure
+func makeIncrementerUsingFunc(toIncrementBy amount: Int) -> Int {
+    var total = 0
+    total += amount
+    return total
+}
 
+/// Using the function returning a clousure
 let incrementByTen = makeIncrementer(toIncrementBy: 10)
 incrementByTen()
 incrementByTen()
+let anotherIncrementByTen = incrementByTen
+anotherIncrementByTen()
+
+/// Using a Normal Function.
+let incrementByTenUsingFunc = makeIncrementerUsingFunc(toIncrementBy: 10)
+let anotherIncrementByTenUsingFunc = makeIncrementerUsingFunc(toIncrementBy: 10)
+
 
 let incrementByFive = makeIncrementer(toIncrementBy: 5)
 incrementByFive()
@@ -64,3 +78,4 @@ alsoIncrementByFive() // Shows that its Reference Type
 /// # Closures and Functions Are Reference Type
 ///
 ///
+
