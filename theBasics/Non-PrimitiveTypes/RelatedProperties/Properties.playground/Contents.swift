@@ -11,7 +11,7 @@ struct TwoDimensionalPoint {
 
 var aPoint = TwoDimensionalPoint(xAxis: 10, yAxis: 20) // yAxis : Alters the value 2.2 -> 20
 
-/// #2. Computer Property
+/// #2. Computed Property
 /// We can compute the value of the property according to other conditions or logic.
 /// Example Structure to Show Computer Property
 struct Seats {
