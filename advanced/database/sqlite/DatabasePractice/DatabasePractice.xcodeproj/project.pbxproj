@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C88A81329BA57F10007F3DD /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A81229BA57F10007F3DD /* FileHandler.swift */; };
+		7C88A81529BA584B0007F3DD /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A81429BA584B0007F3DD /* DBHandler.swift */; };
+		7C88A81729BA58EC0007F3DD /* DBdataReturnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A81629BA58EC0007F3DD /* DBdataReturnType.swift */; };
+		7C88A81929BA590F0007F3DD /* DBErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A81829BA590F0007F3DD /* DBErrors.swift */; };
+		7C88A81E29BA59A50007F3DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A81D29BA59A50007F3DD /* User.swift */; };
+		7C88A82129BA5A6B0007F3DD /* DBoperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A82029BA5A6B0007F3DD /* DBoperations.swift */; };
+		7C88A82329BA7A3F0007F3DD /* DBDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A82229BA7A3F0007F3DD /* DBDataTypes.swift */; };
+		7C88A82629BB0D720007F3DD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A82529BB0D720007F3DD /* Utilities.swift */; };
+		7C88A82929BB159F0007F3DD /* DatabaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A82829BB159F0007F3DD /* DatabaseContract.swift */; };
+		7C88A82C29BB15D90007F3DD /* _global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88A82B29BB15D90007F3DD /* _global.swift */; };
 		7CA30A2D29B9BC1500FF25EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA30A2C29B9BC1500FF25EA /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +33,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C88A81229BA57F10007F3DD /* FileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		7C88A81429BA584B0007F3DD /* DBHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHandler.swift; sourceTree = "<group>"; };
+		7C88A81629BA58EC0007F3DD /* DBdataReturnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBdataReturnType.swift; sourceTree = "<group>"; };
+		7C88A81829BA590F0007F3DD /* DBErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBErrors.swift; sourceTree = "<group>"; };
+		7C88A81D29BA59A50007F3DD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7C88A82029BA5A6B0007F3DD /* DBoperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBoperations.swift; sourceTree = "<group>"; };
+		7C88A82229BA7A3F0007F3DD /* DBDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBDataTypes.swift; sourceTree = "<group>"; };
+		7C88A82529BB0D720007F3DD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7C88A82829BB159F0007F3DD /* DatabaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseContract.swift; sourceTree = "<group>"; };
+		7C88A82B29BB15D90007F3DD /* _global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _global.swift; sourceTree = "<group>"; };
 		7CA30A2929B9BC1500FF25EA /* DatabasePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DatabasePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA30A2C29B9BC1500FF25EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +58,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C88A81B29BA595B0007F3DD /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A81229BA57F10007F3DD /* FileHandler.swift */,
+				7C88A81429BA584B0007F3DD /* DBHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		7C88A81C29BA59770007F3DD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A81629BA58EC0007F3DD /* DBdataReturnType.swift */,
+				7C88A81829BA590F0007F3DD /* DBErrors.swift */,
+				7C88A82029BA5A6B0007F3DD /* DBoperations.swift */,
+				7C88A82229BA7A3F0007F3DD /* DBDataTypes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7C88A81F29BA59AC0007F3DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A81D29BA59A50007F3DD /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C88A82429BB0D600007F3DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A82529BB0D720007F3DD /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7C88A82729BB158F0007F3DD /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A82829BB159F0007F3DD /* DatabaseContract.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		7C88A82A29BB15CD0007F3DD /* globals */ = {
+			isa = PBXGroup;
+			children = (
+				7C88A82B29BB15D90007F3DD /* _global.swift */,
+			);
+			path = globals;
+			sourceTree = "<group>";
+		};
 		7CA30A2029B9BC1500FF25EA = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +129,13 @@
 		7CA30A2B29B9BC1500FF25EA /* DatabasePractice */ = {
 			isa = PBXGroup;
 			children = (
+				7C88A82A29BB15CD0007F3DD /* globals */,
+				7C88A82729BB158F0007F3DD /* Contracts */,
+				7C88A82429BB0D600007F3DD /* Utilities */,
+				7C88A81F29BA59AC0007F3DD /* Models */,
 				7CA30A2C29B9BC1500FF25EA /* main.swift */,
+				7C88A81B29BA595B0007F3DD /* Handlers */,
+				7C88A81C29BA59770007F3DD /* Enums */,
 			);
 			path = DatabasePractice;
 			sourceTree = "<group>";
@@ -120,7 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C88A81529BA584B0007F3DD /* DBHandler.swift in Sources */,
+				7C88A82329BA7A3F0007F3DD /* DBDataTypes.swift in Sources */,
+				7C88A82929BB159F0007F3DD /* DatabaseContract.swift in Sources */,
+				7C88A81929BA590F0007F3DD /* DBErrors.swift in Sources */,
+				7C88A82C29BB15D90007F3DD /* _global.swift in Sources */,
+				7C88A81E29BA59A50007F3DD /* User.swift in Sources */,
+				7C88A81329BA57F10007F3DD /* FileHandler.swift in Sources */,
+				7C88A82129BA5A6B0007F3DD /* DBoperations.swift in Sources */,
+				7C88A82629BB0D720007F3DD /* Utilities.swift in Sources */,
 				7CA30A2D29B9BC1500FF25EA /* main.swift in Sources */,
+				7C88A81729BA58EC0007F3DD /* DBdataReturnType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
